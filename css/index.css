@@ -163,17 +163,17 @@ hr {
 }
 .image-1 {
     grid-area: image-1;
-    background-image: url(/assets/images/img-1.jpg);
+    background-image: url(../assets/images/img-1.jpg);
 }
 .image-2 {
     grid-area: image-2;
-    background-image: url(/assets/images/img-2.jpg);
+    background-image: url(../assets/images/img-2.jpg);
 }
 .image-3 {
     grid-area: image-3;
-    background-image: url(/assets/images/img-3.jpg);
+    background-image: url(../assets/images/img-3.jpg);
 }
 .image-4 {
     grid-area: image-4;
-    background-image: url(/assets/images/img-4.jpg);
+    background-image: url(../assets/images/img-4.jpg);
 }
