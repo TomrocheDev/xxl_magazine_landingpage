@@ -70,7 +70,7 @@ hr {
 .logo {
     height: 70px;
     width: 100px;
-    background-image: url(/images/logo.png);
+    background-image: url(https://cdn6.aptoide.com/imgs/c/2/4/c2412ab7626c73ccabe1006a21722ab4_fgraphic.png);
     background-position: center;
     background-size: cover;
 }
@@ -163,17 +163,17 @@ hr {
 }
 .image-1 {
     grid-area: image-1;
-    background-image: url(../assets/images/img-1.jpg);
+    background-image: url(https://images.unsplash.com/photo-1621535366998-2d8c75ebbcad?q=80&w=1980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 .image-2 {
     grid-area: image-2;
-    background-image: url(../assets/images/img-2.jpg);
+    background-image: url(https://images.unsplash.com/photo-1509847950535-14e861e5191b?q=80&w=1892&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 .image-3 {
     grid-area: image-3;
-    background-image: url(../assets/images/img-3.jpg);
+    background-image: url(https://images.unsplash.com/photo-1646225481356-fda42ef79211?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 .image-4 {
     grid-area: image-4;
-    background-image: url(../assets/images/img-4.jpg);
+    background-image: url(https://images.unsplash.com/photo-1533711539834-ebcee9ed4975?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
