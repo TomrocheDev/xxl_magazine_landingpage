@@ -7,7 +7,7 @@
     color: var(--text-1);
 }
 :root {
-    --bg-1: #fc2a16;
+    --bg-1: #dc3229;
     --bg-2: #000;
     --text-1: #fff;
     --text-2: #696969;
@@ -18,15 +18,21 @@
     --fs-m: 1.1rem;
     --fs-s: 1rem;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: var(--bg-1);
     position: relative;
     font-family: "Poppins", sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .main {
     position: absolute;
     inset: 0;
+}
+#part-1 {
+    overflow: hidden;
 }
 
 hr {
@@ -83,6 +89,10 @@ hr {
     color: var(--text-2);
     text-decoration: none;
     font-size: 1.1rem;
+    transition: 0.3s ease-in-out;
+}
+.link:hover {
+    color: #fff;
 }
 .nav__right i {
     color: #fff;
@@ -135,6 +145,15 @@ hr {
     font-weight: 400;
 }
 
+#to-articles {
+    padding: 0.8rem 2rem;
+    background-color: var(--bg-1);
+    margin-left: 100px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+}
+
 /* ====== Background Images ====== */
 .background-images {
     position: absolute;
@@ -176,4 +195,38 @@ hr {
 .image-4 {
     grid-area: image-4;
     background-image: url(https://images.unsplash.com/photo-1533711539834-ebcee9ed4975?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+#articles {
+    background-color: #fff;
+    position: relative;
+    z-index: 3;
+}
+
+/* ====== Menu small screen ====== */
+#menu-small-screen {
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    display: none;
+}
+#menu-small-screen ul {
+    list-style: none;
+    text-align: right;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.ss-nav-link {
+    font-size: var(--fs-m);
+    cursor: pointer;
+}
+
+#close-menu {
+    cursor: pointer;
 }
