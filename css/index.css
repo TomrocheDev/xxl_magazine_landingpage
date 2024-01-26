@@ -197,7 +197,6 @@ hr {
 #articles {
     background-color: #fff;
     position: relative;
-    z-index: 3;
 }
 
 /* ====== Menu small screen ====== */
